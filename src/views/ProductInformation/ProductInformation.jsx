@@ -17,7 +17,7 @@ function ProductInformation({ setStep }) {
                 <h1> Crea tu password Manager</h1>
                 <div className="cards">
                     <div className="p-info">
-                        <img className="imagen1" src={image} />
+                        <img className="image1" src={image} />
                         <p>
                             Guarda aquí todas tus contraseñas, datos a cualquier
                             información, olvida las notas de papel y las
@@ -25,7 +25,7 @@ function ProductInformation({ setStep }) {
                         </p>
                     </div>
                     <div className="p-info2">
-                        <img className="imagen2" src={image2} />
+                        <img className="image2" src={image2} />
                         <p>
                             Crea tu clave maestra: solo tú podrás accedera tus
                             secretos con ella.
