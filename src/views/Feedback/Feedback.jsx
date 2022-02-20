@@ -9,9 +9,6 @@ function Feedback() {
             <div className="button_acces">   
             <button>Acceder</button>
             </div>
-            <div className="passwordError"></div>
-            <h1>No hemos podido modificar tu Contraseña Maestra inténtalo más tarde</h1>
-            <button>Volver a password Manager</button>
         </div>
     );
 }

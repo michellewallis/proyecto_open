@@ -1,90 +1,69 @@
 @import "../../styles/base.scss";
 @font-face {
-    font-family: 'SFregular';
-    src: url('../../assets/fonts/SFPRODISPLAYREGULAR.OTF');
-  }
+    font-family: "SFregular";
+    src: url("../../assets/fonts/SFPRODISPLAYREGULAR.OTF");
+}
 
-
-
-body{
+body {
     font-family: SFregular;
+    $secondary-color : color
 }
 
-.container-info{
-    display: flex;
-    flex-direction: column;
-    align-items: center
+.container-product-information {
+    padding: 50px 100px;
+    margin: 10px 400px;
 }
 
-
-.title{
-
- justify-content: center;
+.container-info {
+    margin-top: 60px;
 }
 
-.cards{
+.cards {
     display: flex;
     width: 100%;
-
-}
-.p-info{
-    text-align: center;
-    width: 100%;
-    
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 50px;
 }
 
-.imagen1{
+.p-info,
+.p-info2 {
+    flex: 0 0 30%;
+}
+
+.imagen1 {
+    width: 60%;
     margin: auto;
-    width: 15%;
-    
+
 }
 
-.p-info2{
-    text-align: center;
-}
-
-.imagen2{
-    width: 15%;
-    margin: auto;
-   
-}
-
-
-.container-info2{
-    border-style: solid; 
-   margin-top: 8%;
-    
-}
-
-.container-info3{
-    border-style: solid;
+.imagen2 {
+    width: 60%;
     margin: auto;
 }
 
-.action-buttons{
+.action-buttons {
     display: flex;
-    justify-content: space-between; 
-    border-top: 1px;  
-    width: 50%;
-    margin-top: 2%;
+    justify-content: space-between;
+    margin-top: 60px;
 }
 
-.button-cancel{
+.button-cancel {
     background-color: transparent;
-     border: none;
-     color: grey;
-     margin: auto;
+    border: none;
+    color: gre y;
 }
-.button-next{
-    padding: 10px 20px; 
+.button-next {
+    padding: 10px 20px;
     background-color: $secondary-color;
     color: white;
-     border: none;
-     margin: auto;
+    border: none;
 }
 
+.checkbox {
+    margin: 40px 0;
+}
 
-.checkbox{
-    border-style: solid;
-    margin-top: 2%;
+.checkbox input {
+    margin-left: 5px;
 }
