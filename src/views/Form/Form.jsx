@@ -83,6 +83,7 @@ function Form({ setStep }) {
                         <input
                             type="text"
                             value={password}
+                            className="input"
                             onChange={OnChangePassword}
                         />
                     </div>
@@ -93,6 +94,7 @@ function Form({ setStep }) {
                             id="passwordRepeat"
                             name="passwordRepeat"
                             required
+                            className="input"
                             onChange={onchangePasswordRepeact}
                             value={passwordRepeat}
                         />

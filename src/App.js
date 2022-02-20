@@ -7,6 +7,7 @@ import FeedbackError from "./views/FeedbackError";
 import { useState } from "react";
 import { Stepper } from "react-form-stepper";
 
+
 function App() {
     const [step, setStep] = useState(1);
 
@@ -20,6 +21,7 @@ function App() {
     return (
         <>
             <Stepper
+                className="stepper"
                 steps={[
                     { label: "Step 1" },
                     { label: "Step 2" },

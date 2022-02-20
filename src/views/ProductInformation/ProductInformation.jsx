@@ -52,12 +52,13 @@ function ProductInformation({ setStep }) {
                     </p>
                 </div>
 
-                <div className="checkbox">
-                    <label htmlFor="checkbox">¿Eres Mayor de 18 años?</label>
+                <div>
+                    <label htmlFor="checkbox" className="label-checkbox">¿Eres Mayor de 18 años?</label>
                     <input
                         type="checkbox"
                         id="checkbox"
                         name="checkbox"
+                        className="checkbox"
                         onChange={() => {
                             setIsDisabled(!isDisabled);
                         }}
