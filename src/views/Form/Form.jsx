@@ -81,7 +81,7 @@ function Form({ setStep }) {
                     <div className="input-form first-input-form">
                         <label>Crea tu contraseña Maestra</label>
                         <input
-                            type="text"
+                            type="password"
                             value={password}
                             className="input"
                             onChange={OnChangePassword}
@@ -90,7 +90,7 @@ function Form({ setStep }) {
                     <div className="input-form">
                         <label>Repite tu Contraseña Maestra</label>
                         <input
-                            type="text"
+                            type="password"
                             id="passwordRepeat"
                             name="passwordRepeat"
                             required
