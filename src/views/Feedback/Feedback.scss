@@ -1,5 +1,14 @@
+@import "../../styles/base.scss";
+@font-face {
+    font-family: "SFregular";
+    src: url("../../assets/fonts/SFPRODISPLAYREGULAR.OTF");
+}
+
+
 .feedback {
     padding: 10px 25px;
-    margin: 2,5px 6,25%;
     font-size: 1rem;
+    text-align: center;
+    
 }
+

@@ -7,11 +7,13 @@
 body {
     font-family: SFregular;
     $secondary-color: color;
+    max-width: 1200px;
+    margin: auto;
 }
 
 .container-product-information {
     padding: 60px 60px,60px;
-    margin: 10px 5%;
+    margin: 15px 6%;
     font-size: 1rem;
 }
 
@@ -21,8 +23,8 @@ body {
 }
 
 .checkbox {
-    width: 10px;   
-    height: 10px;
+    width: 15px;   
+    height: 12px;
 }
 
 button {
@@ -31,19 +33,23 @@ button {
 
 .container-info {
     margin-top: 20px;
+   
 }
+
 
 .cards {
     display: flex;
     width: 100%;
     align-items: center;
     justify-content: space-between;
-    padding: 0 20px;
+    padding: 0 25px;
+    margin-top: 40px;
 }
 
 .p-info,
 .p-info2 {
-    flex: 0 0 25;
+    flex: 0 0 20;
+    text-align: center;
 }
 
 .imagen1 {
@@ -60,22 +66,24 @@ button {
     display: flex;
     justify-content: space-between;
     margin-top: 25px;
+    
 }
 
 .button-cancel {
+    padding: 10px 30px;
     background-color: transparent;
     border: none;
     color: grey;
 }
 .button-next {
-    padding: 2px 2px;
+    padding: 10px 30px;
     background-color: $secondary-color;
     color: white;
     border: none;
 }
 
 .checkbox {
-    margin: 10px 0;
+    margin: 15px 0;
 }
 
 .checkbox input {
