@@ -1,1 +1,1 @@
-  # Prueba tecnica open 
+  # Prueba técnica open 
